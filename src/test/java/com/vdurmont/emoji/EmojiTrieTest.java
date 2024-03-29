@@ -5,7 +5,7 @@ import org.junit.Test;
 import static com.vdurmont.emoji.EmojiManager.isEmoji;
 import static org.junit.Assert.assertEquals;
 
-public class NewEmojiTrieTest {
+public class EmojiTrieTest {
     @Test
     public void testIsEmoji_ValidEmoji() {
         char[] sequence = {'\uD83D', '\uDE0A', 'a', 'b'};
